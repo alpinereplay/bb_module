@@ -1,0 +1,16 @@
+PODS:
+  - bb_module (0.1.0)
+
+DEPENDENCIES:
+  - bb_module (from `../`)
+
+EXTERNAL SOURCES:
+  bb_module:
+    :path: ../
+
+SPEC CHECKSUMS:
+  bb_module: 87f166127176c8349fbc66e78d9a92cb5222e42f
+
+PODFILE CHECKSUM: ad1c033d5770bad296ea9d0143b30ce4012f93e5
+
+COCOAPODS: 1.3.1

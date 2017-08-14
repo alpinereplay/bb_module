@@ -1,0 +1,6 @@
+framework module bb_module {
+  umbrella header "bb_module-umbrella.h"
+
+  export *
+  module * { export * }
+}

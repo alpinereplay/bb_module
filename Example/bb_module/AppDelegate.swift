@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import bb_module
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var router: Router?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        router = Router(window: window!)
+        router?.register(MainModule())
+        router?.register(AppleModule())
+        router?.register(BananaModule())
+        router?.post("/")
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

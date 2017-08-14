@@ -1,11 +1,10 @@
 use_frameworks!
+platform :ios, "10.0"
 
 target 'bb_module_Example' do
   pod 'bb_module', :path => '../'
 
   target 'bb_module_Tests' do
     inherit! :search_paths
-
-    
   end
 end
