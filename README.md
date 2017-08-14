@@ -1,5 +1,7 @@
 # bb_module
 
+BBModule is a module and routing system to help write good modularized ios apps
+
 [![CI Status](http://img.shields.io/travis/Brian Bal/bb_module.svg?style=flat)](https://travis-ci.org/Brian Bal/bb_module)
 [![Version](https://img.shields.io/cocoapods/v/bb_module.svg?style=flat)](http://cocoapods.org/pods/bb_module)
 [![License](https://img.shields.io/cocoapods/l/bb_module.svg?style=flat)](http://cocoapods.org/pods/bb_module)
