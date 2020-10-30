@@ -45,7 +45,7 @@ public class RouteHandler {
         if _exact {
             matched = route.path == _path
         } else {
-            let matches = _regex.matches(in: route.path, options: .init(rawValue: 0), range: NSRange(location: 0, length: route.path.characters.count))
+            let matches = _regex.matches(in: route.path, options: .init(rawValue: 0), range: NSRange(location: 0, length: route.path.count))
             matched = matches.count > 0
         }
         return matched
